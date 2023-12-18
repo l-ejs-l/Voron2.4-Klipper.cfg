@@ -1,0 +1,7 @@
+[gcode_macro QUAD_GANTRY_LEVEL]
+rename_existing: _QUAD_GANTRY_LEVEL
+description: Quad Gantry level with status leds
+gcode:
+    STATUS_LEVELING
+    _QUAD_GANTRY_LEVEL 
+    STATUS_READY
